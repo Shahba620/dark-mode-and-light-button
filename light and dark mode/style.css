@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    display: flex; /* Use Flexbox to center content */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    min-height: 100vh; /* Ensure the body takes full height of the viewport */
+    min-width: 200vh;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+.light{
+    background-color: white;
+    color:black;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 200px;
+   
+}
+button{
+    height: 50px;
+    width: 60%; /* Set width as a percentage for responsiveness */
+     /* Set a maximum width to avoid stretching on larger screens */
+    border-radius: 30px;
+    border: 2px solid blueviolet;
+    box-shadow: 9px 10px 8px lightblue;
+    background-color: cadetblue;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}
